@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+.env
+.env.*
+!.env.example
+var/*.db
+var/*.json
+var/*.lock
+eval/results/improved/
+real_bohrium/job.local.json
+real_bohrium/results/

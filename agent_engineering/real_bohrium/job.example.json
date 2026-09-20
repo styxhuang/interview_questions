@@ -1,0 +1,18 @@
+{
+  "job_name": "agent-interview-real-REPLACE_WITH_UNIQUE_SUFFIX",
+  "job_type": "container",
+  "command": "sh run.sh > bohrium_smoke.log 2>&1",
+  "log_file": "bohrium_smoke.log",
+  "backward_files": [
+    "result.json",
+    "environment.txt",
+    "bohrium_smoke.log"
+  ],
+  "project_id": 0,
+  "platform": "ali",
+  "machine_type": "REPLACE_WITH_VISIBLE_CPU_MACHINE",
+  "image_address": "REPLACE_WITH_VISIBLE_IMAGE",
+  "max_reschedule_times": 0,
+  "max_run_time": 2,
+  "nnode": 1
+}
